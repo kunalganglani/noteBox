@@ -1,0 +1,16 @@
+Features Implemented
+
+Target 1 Items All Completed
+    Node addition 
+    Sub node creation
+
+
+Target 2 Items Completed
+    Note Editing
+    Node delete based on hierarchy position
+
+Pending Item: Search
+
+Additional Capabilities
+    Dialog box to add notes
+    Responsive Design

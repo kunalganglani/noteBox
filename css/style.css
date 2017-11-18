@@ -1,0 +1,85 @@
+.buttonStyle {
+    background: none!important;
+    color: grey;
+    margin-left: 8px;
+    border: none;
+    padding: 0!important;
+    font: inherit;
+    cursor: pointer;
+}
+
+div {
+    /* border: 1px solid grey; */
+}
+
+.profile {
+    height: 50px;
+    width: 50px;
+    border: 1px solid grey;
+    border-radius: 3px;
+}
+
+.inlines {
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.postBox {
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px;
+    position: relative;
+}
+
+.postText {
+    border: 2px solid grey;
+    border-radius: 3px;
+    width: calc(100% - 70px);
+    height: 50px;
+    padding: 5px;
+    position: absolute;
+    top: 10px;
+    left: 65px;
+}
+
+.commentWidget {
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid grey;
+}
+
+.post {
+    position: relative;
+    height: 140px;
+    border: 1px solid black;
+}
+
+.usernameStyle {
+    margin-left: 5px;
+    color: skyblue;
+}
+
+.postHeaders {
+    position: absolute;
+    top: 3px;
+}
+
+.timeStampStyle {
+    margin-left: 130px;
+    color: grey;
+}
+
+.commentText {
+    position: absolute;
+    top: 30px;
+    left: 65px;
+    height: 50px;
+    width: auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
+.actionButtons {
+    position: absolute;
+    top: 100px;
+}

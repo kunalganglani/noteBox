@@ -1,0 +1,63 @@
+<html>
+
+<head>
+    <title>My Notes Map</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="js/commentBox.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <!-- bootbox code -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootbox.js/4.4.0/bootbox.min.js"></script>
+    <script type="text/javascript" src="profiles.json"></script>
+</head>
+
+<body onload="addOptions();">
+    <template id="comment-template">
+            <div class="post">
+                    <div class="inlines profile">
+                        <img class="profile" src="https://ask.manytutors.com/assets/img/profile-pic-male.jpg" />
+                    </div>
+                    <div class="inlines">
+                        <div class="usernameStyle postHeaders">Kunal Ganglani</div>
+                        <div class="timeStampStyle postHeaders">Now</div>
+                        <div contenteditable="true" class="commentText">
+                            Default Text
+                        </div>
+                        <div class="actionButtons">
+                            <!-- <div class="numOfLikes inlines"></div>
+                            <button class="buttonStyle"> &#x25B3; </button> &nbsp; | &nbsp;
+                            <div class="numOfDislikes inlines"></div>
+                            <button class="buttonStyle">  &#x25BD; </button>&nbsp; -->
+                            <button class="buttonStyle"> Delete Note</button>
+                            <button class="buttonStyle">New Note</button>
+                            
+                            
+                        </div>
+                    </div>
+                </div>
+    </template>
+
+    <div class="commentWidget">
+        <label for="user">Select Username</label>
+        <select id="dd"></select>
+        <input type="text" name="search" placeholder="Search..">        
+        <div class="postBox">
+            <div class="inlines profile">
+                <img class="profile" src="https://ask.manytutors.com/assets/img/profile-pic-male.jpg" />
+            </div>
+            <div class="inlines">
+                <input class="postText" type="text" name="FirstName" value="Type to make note..">
+            </div>
+
+            <div id="content">
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>
